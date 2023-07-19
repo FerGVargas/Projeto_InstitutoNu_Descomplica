@@ -1,0 +1,48 @@
+/* NavBar */
+.logo{
+width:150px;
+border: 1px solid rgb(228, 196, 17);
+}
+
+/* Carousel */
+.carousel img{
+height: 500px;
+width: 500px; 
+}
+
+.carousel-caption h5{
+font-size: 50px;
+color: midnightblue;
+}
+/* Quem Somos */
+
+.fotosFer{
+    border: solid 2px rgb(228, 196, 17);;
+    width: 350px;
+    height: 420px;
+}
+
+.fotosPonto{
+    border: solid 2px rgb(228, 196, 17);;
+    width: 450px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+/* Nosso Time */
+
+#time{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+}
+
+/* Nossos Produtos */
+.card-body, a{
+margin-top: 10px;
+}
+
+/* Footer */
+.footer, p{
+margin: 0;
+}
