@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Ponto a Ponto de Coração</title>
+    <link rel="logo" href="imagens/logo.ico" type="imagens/ico">
+    <link rel="stylesheet" href="style.css">
+<style>
+/* NavBar */
+.logo{
+width:150px;
+border: 1px solid rgb(228, 196, 17);
+}
+
+/* Carousel */
+.carousel img{
+height: 600px;
+width: 80%; 
+margin: 5px;
+
+
+
+}
+
+.carousel-caption h5{
+font-size: 50px;
+color: midnightblue;
+}
+/* Quem Somos */
+
+.fotosFer{
+    border: solid 2px rgb(228, 196, 17);;
+    width: 350px;
+    height: 420px;
+}
+
+.fotosPonto{
+    border: solid 2px rgb(228, 196, 17);;
+    width: 450px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+/* Nosso Time */
+
+#time{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+}
+
+/* Nossos Produtos */
+.card-body, a{
+margin-top: 10px;
+}
+
+/* Footer */
+.footer, p{
+margin: 0;
+}
+
+</style>
+</head>
+<body>
+<header>
+
+<!-- NavBar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img class="logo" src="imagens/pontoaponto.png" alt="PontoaPonto">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link text-bg-warning" href="quemSomos.html">Quem_Somos</a>
+        <a class="nav-link text-bg-warning" href="nossoTime.html">Nosso_Time</a>
+        <a class="nav-link text-bg-warning" href="nossosProdutos.html">Nossos_Produtos</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!-- Carousel -->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagens/natal.PNG" class="d-block w-100" alt="Presepio de Natal">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Carinho em forma de presente.</h5>
+        </div>
+    </div>
+    <div class="carousel-item 1">
+      <img src="imagens/nossaSenhora.PNG" class="d-block w-100" alt="Nossa Senhora Aparecida">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ponto a Ponto de Coração</h5>
+        </div>
+    </div>
+    <div class="carousel-item 2">
+      <img src="imagens/pesoPorta.PNG" class="d-block w-100" alt="Pesso de Porta">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Decoração e utilidades em sua casa.</h5>
+        </div>
+    </div>
+    <div class="carousel-item 3">
+      <img src="imagens/Dobby.PNG" class="d-block w-100" alt="Dobby">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Seu Personagem favorito.</h5>
+        </div>
+    </div>
+  </div>
+<div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+<!--Quem somos-->
+
+<section class="container-fluid bg light text-center">
+    <div>
+        <img class="fotosFer" src="imagens/fer.PNG" alt="Artesa Fernanda">
+        <img class="fotosPonto" src="imagens/pontoaponto.PNG" alt="Logo Ponto a Ponto">
+    </div>
+    <br>
+    <h1 class="texto">Bem-vindo(a) a Loja Virtual Ponto a Ponto de Coração</h1>
+    <h5 class="texto p-2">Somos uma empresa que acredita no artesanato como uma forma de <b>AMOR</b>. <br> Amor compartilhado através do tempo e energia investido somados a dedicação e carinho na confecção de cada criação. <br> Este site é para você que está procurando algo feito com carinho para presentear alguém especial!</h5>
+</section>
+
+
+<!-- Nosso Time-->
+<div class="container-fluid card-group center p-5">
+    <div class="card p-5">
+      <img id="time" src="imagens/fernanda.PNG" class="card-img-top" alt="Fernanda">
+      <div class="card-body">
+        <h5 class="card-title">Fernanda</h5>
+        <p class="card-text">Artesã e CEO da Marca</p>
+      </div>
+    </div>
+    <div class="card p-5">
+      <img id="time" src="imagens/Thi.PNG" class="card-img-top" alt="Thiago">
+      <div class="card-body">
+        <h5 class="card-title">Thiago</h5>
+        <p class="card-text">Designer gráfico e Social Media</p>
+      </div>
+    </div>
+    <div class="card p-5">
+      <img id="time" src="imagens/JuPe.PNG" class="card-img-top center" alt="Julia e Pedro">
+      <div class="card-body">
+        <h5 class="card-title">Júlia e Pedro</h5>
+        <p class="card-text">Inspiração</p>
+      </div>
+    </div>
+  </div>    
+
+  <!--Nossos Produtos -->
+<section class="text bg-light text-centerp-2">
+    <h2 class="text-center">Nossos Produtos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+            <img src="imagens/homemFerro.PNG" class="card-img-top" alt="Homem de Ferro">
+            <div class="card-body">
+              <h5 class="card-title">Homem de Ferro</h5>
+              <p class="card-text">I am #IRONMAN!</p>
+              <h4 class="card-subtitle text-muted">R$ 40,00</h4>
+              <a href="#" class="btn text-bg-warning p-2">Comprar</a>
+            </div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/nossaSenhora.PNG" class="card-img-top" alt="Nossa Senhora">
+          <div class="card-body">
+            <h5 class="card-title">Nossa Senhora Aparecida</h5>
+            <p class="card-text">Nossa Senhora Aparecida... rogai por nós!</p>
+            <h4 class="card-subtitle text-muted">R$ 50,00</h4>
+            <a href="#" class="btn bg-warning p-2 left">Comprar</a>
+          </div>
+        </div>
+      </div>
+        <div class="col">
+        <div class="card h-100">
+          <img src="imagens/natal.PNG" class="card-img-top" alt="Presépio de Natal">
+          <div class="card-body">
+            <h5 class="card-title">Presépio de Natal</h5>
+            <p class="card-text">O nascimento de Jesus Cristo aconteceu sem luxo, de uma forma muito simples, mas com uma missão grandiosa de 'salvar o mundo'. Que esse sentimento de AMOR chegue ao nosso lar. Que sejamos melhores, com nós, com o próximo... com o Mundo!.</p>
+            <h4 class="card-subtitle text-muted">R$ 700,00</h4>
+            <a href="#" class="btn text-bg-warning p-2">Comprar</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/cachepo.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cachepô com Orelhas</h5>
+              <p class="card-text">Otima opção de Páscoa cachepô com orelinhas fofinhas para presente e tornar essa data ainda mais especial..</p>
+              <h4 class="card-subtitle text-muted">R$ 15,00</h4>
+              <a href="#" class="btn text-bg-warning p-2">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="imagens/pesoPorta.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Peso de Porta </h5>
+                <p class="card-text">Uma peça útil que não deixar a porta bater, não riscar o piso, pode ser feita no tamanho, peso e cor que melhor combina com seu ambiente. Além é claro de decorar sua casa com amor! Feito em crochê com fio de malha ecológico.</p>
+                <h4 class="card-subtitle text-muted">R$ 20,00</h4>
+                <a href="#" class="btn text-bg-warning p-2">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div card class="card h-100">
+              <img src="imagens/Dobby.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dobby</h5>
+                <p class="card-text">Dobby Elfo Doméstico (Harry Potter). "Aqui jaz Dobby, um elfo livre."</p>
+                <h4 class="card-subtitle text-muted">R$ 70,00</h4>
+                <a href="#" class="btn text-bg-warning p-2">Comprar</a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Footer-->
+  <footer class="footer bg-warning text-bg-warning">
+      <p>Endereço: Loja Virtual | São Paulo/SP</p>
+      <p>Contato: +55 (11) 9 9147-1689</p>
+      <a href="https://www.instagram.com/pontoapontodecoracao/" rel="external">Rede Social: @pontoapontodecoracao</a>
+  </footer>
+  </body>
+  </html>
